@@ -75,4 +75,18 @@ a {
   color: white;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+
+  height: 99vh;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /* border: 1px solid blue; */
+}
+
+.main-content * {
+  /* border: 1px solid orange; */
+}
+
 /* TODO - Change position of credit to overlay bottom of image */
