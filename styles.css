@@ -57,7 +57,7 @@ a {
 }
 
 .left-logo-div span {
-  font-family: "Norse Bold", "Ubuntu";
+  font-family: "Norse Bold", "Ubuntu", sans-serif;
   font-size: 5em;
   color: white;
   margin-left: 8px;
