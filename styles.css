@@ -151,7 +151,7 @@ label {
   display: block;
 }
 
-.submit_button {
+.submit-button {
   width: 12.5rem;
   margin-left: 3rem;
   padding: 1rem 2rem;
@@ -161,6 +161,15 @@ label {
   font-size: 1.1rem;
   border-radius: 8px;
   border: none;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #905727;
+}
+
+.submit-button:active {
+  background-color: #744116;
 }
 
 .login-notice {
