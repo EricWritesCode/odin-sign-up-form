@@ -12,9 +12,11 @@ function validateForm() {
   formElement = document.getElementById("account-form");
 
   passField = document.getElementById("pass");
-  passConfirm = document.getElementById("pass_confirm");
+  passConfirm = document.getElementById("pass-confirm");
 
-  // TODO: Check passwords match
+  if (passField.value != passConfirm.value) {
+    passConfirm.setCustomValidity("Passwords do not match");
+  }
 
   return formElement.reportValidity();
 }
