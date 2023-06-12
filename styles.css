@@ -159,7 +159,12 @@ label {
   color: #834B1E;
 }
 
+@media (max-width: 600px) {
+  .left-logo-div span {
+    font-size: 3em;
+  }
+}
+
 /* TODO - Validation formatting */
 /* TODO - Passwords need an error class? */
 /* TODO - Javascript to check password match */
-/* TODO - Fix text cutoff at small resolutions */
