@@ -131,6 +131,11 @@ label {
   border: 1px solid #cbd5e1;
 }
 
+.form-item input:focus {
+  outline-color: #94a3b8;
+  background-color: #ecfeff;
+}
+
 .submit_button {
   width: 12.5rem;
   margin-left: 3rem;
@@ -154,7 +159,6 @@ label {
   color: #834B1E;
 }
 
-/* TODO - Format :focus for form elements */
 /* TODO - Validation formatting */
 /* TODO - Passwords need an error class? */
 /* TODO - Javascript to check password match */
